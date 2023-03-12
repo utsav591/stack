@@ -1,0 +1,13 @@
+#bg-image{
+background-image: url('images/hero-bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+#carousel-image{
+    background-image: url('images/testimonial_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+height: 400px;
+}
