@@ -16,9 +16,9 @@
 
 <body>
     <section id="nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="images/logo.png">
+                <a class="nav-link" aria-current="page" href="#"><img class="ps-5"src="images/logo.png"alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,44 +30,43 @@
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICE</a>
+                            <a class="nav-link" href="#services">SERVICE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">TESTTIMONIALS</a>
+                            <a class="nav-link" href="#carousel-image">TESTTIMONIALS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="#get-touch">CONTACT</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-    <section id="bg-image">
-        <div class="container-fluid py-5 ">
+    <section id="bg-image ">
+        <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-lg-8 offset-2">
-                    <h2>
+                    <h2 class="py-5">
                         Discover Design & build digital <br>presence of business
                     </h2>
                     <button type="button" class="btn btn-primary fw-semibold my-3">Download Now</button>
-                    <div>
+                    <div class="pt-4">
                         <img src="images/bannerimg.png" alt="bannerimg" class="bannerimg">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container-fluid py-4">
+    <section id="about">
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-lg-5 py-5 offset-1">
                     <div>
                         <h2>
-
                             We are helping to grow your business
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic voluptatum,
@@ -76,41 +75,52 @@
                         <button type="button" class="btn btn-primary fw-semibold my-3">Download Now</button>
                     </div>
                 </div>
-                <div class="col-lg-5 bg-primary py-2">
-                    <div>
-                        <h3 class="fw-bold">
-                            <span> <i class="fa-solid fa-microphone text-light"></i></span>
-                            WHat WE DO
-                        </h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic voluptatum,
-                            accusantium neque distinctio, non ad voluptatibus placeat?</p>
-                    </div>
-                    <div>
-                        <h3 class="fw-bold">
-                            <span> <i class="fa-solid fa-user text-light"></i></span>
-                            MEETING OUR TEAM
-                        </h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic voluptatum,
-                            accusantium neque distinctio, non ad voluptatibus placeat?</p>
-                    </div>
-                    <div>
-                        <h3 class="fw-bold">
-                            <span> <i class="fa-solid fa-star text-light"></i></span>
-                            OUR CREATION
-                        </h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic voluptatum,
-                            accusantium neque distinctio, non ad voluptatibus placeat?</p>
+                <div class="col-lg-6 bg-primary">
+                    <div class="py-3">
+                        <div>
+                            <h3 class="fw-bold">
+                                <span class="rounded p-3"><i class="fa-solid fa-microphone text-light"></i></span>
+                                WHAT WE DO
+                            </h3>
+                            <p class="ps-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic
+                                voluptatum,
+                                accusantium neque distinctio, non ad voluptatibus placeat?</p>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold">
+                                <span class="rounded  p-3"><i class="fa-solid fa-user text-light"></i></span>
+                                MEETING OUR TEAM
+                            </h3>
+                            <p class="ps-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic
+                                voluptatum,
+                                accusantium neque distinctio, non ad voluptatibus placeat?</p>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold">
+                                <span class="rounded  border-light p-3"><i
+                                        class="fa-solid fa-star text-light "></i></span>
+                                OUR CREATION
+                            </h3>
+                            <p class="ps-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem hic
+                                voluptatum,
+                                accusantium neque distinctio, non ad voluptatibus placeat?</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container p-4 bg-body-tertiary">
+    <section class="bg-body-tertiary" id="services">
+        <div class="container p-4">
+            <div class="text-center py-3">
+                <h1>OUR SERVICES</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
+                    assumenda dolores cumque.</p>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-pen p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-pen p-3 fs-2 text-primary"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">CONTENT WRITTEING</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -120,8 +130,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-briefcase p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-briefcase p-3 fs-2 text-primary rounded-2"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">DIGITAL MARKETING</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -131,8 +141,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-gear p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-gear p-3 fs-2 text-primary"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">WEB DEVLOPER</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -142,8 +152,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-mobile p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-mobile p-3 fs-2 text-primary"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">IOS & ANDROID</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -153,8 +163,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-database p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-database p-3 fs-2 text-primary"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">UI/UX DESIGN</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -164,8 +174,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-2">
-                    <div class="card">
-                        <span><i class="fa-sharp fa-solid fa-rocket p-3 fs-4 text-primary"></i></span>
+                    <div class="card shadow rounded-3">
+                        <span><i class="fa-sharp fa-solid fa-rocket p-3 fs-2 text-primary"></i></span>
                         <div class="card-body">
                             <h5 class="card-title">BRANDING AND IDENTITY</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, illo
@@ -181,48 +191,158 @@
         <div class="container-fluid py-5">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="d-flex justify-content-center py-2">
-                        <img src="images/test_img1.jpg" class="d-block rounded-5 text-center" alt="...">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center py-2">
+                            <img src="images/test_img1.jpg" class="d-block rounded-5 text-center" alt="...">
+                        </div>
+                        <h2 class="text-light"><span class="text-primary ">UTSAV /</span> WEB DEVLOPER</h2>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
                     </div>
-                    <h2 class="text-light"><span class="text-primary ">UTSAV /</span> WEB DEVLOPER</h2>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center py-2">
+                            <img src="images/test_img2.jpg" class="d-block rounded-5" alt="...">
+                        </div>
+                        <h2 class="text-light"><span class="text-primary ">PRIYANKA /</span> UI/UX DESIGNER</h2>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center py-2">
+                            <img src="images/test_img3.jpg" class="d-block rounded-5" alt="...">
+                        </div>
+                        <h2 class="text-light"><span class="text-primary ">ATIK /</span> ANDROID DEVLOPER</h2>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center py-2">
+                            <img src="images/test_img4.png" class="d-block rounded-5" alt="...">
+                        </div>
+                        <h2 class="text-light"><span class="text-primary ">JAIDEEP /</span> EMBBD DEVLOPER</h2>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                        <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa
+                            atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
+                    </div>
                 </div>
-                  <div class="carousel-item">
-                    <div class="d-flex justify-content-center py-2">
-                    <img src="images/test_img2.jpg" class="d-block rounded-5"  alt="...">
-                    </div>
-                    <h2 class="text-light"><span class="text-primary ">PRIYANKA /</span> UI/UX DESIGNER</h2>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-flex justify-content-center py-2">
-                    <img src="images/test_img3.jpg" class="d-block rounded-5"  alt="...">
-                    </div>
-                    <h2 class="text-light"><span class="text-primary ">ATIK /</span> ANDROID DEVLOPER</h2>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-flex justify-content-center py-2">
-                    <img src="images/test_img4.png" class="d-block rounded-5"  alt="...">
-                    </div>
-                    <h2 class="text-light"><span class="text-primary ">JAIDEEP /</span> EMBBD DEVLOPER</h2>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                    <p class="text-light px-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a cum esse ea laborum! Error facere, commodi quod accusamus numquam dolorem culpa atque corrupti itaque, id ipsum. Numquam, dolorum ea.</p>
-                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-body-tertiary"id="get-touch">
+        <div class="row">
+            <div class="col-lg-5 offset-1 py-5">
+                <h1>GET IN <span class="text-primary">TOUCH</span></h1>
+                <p>Create Projects For Companies With Passion For Startup And Quality</p>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="YOUR NAME">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="YOUR EMAIL ADDRESS">
+                </div>
+                <div class="mb-3">
+                    <input type="tel" class="form-control" id="exampleFormControlInput1"
+                        placeholder="YOUR MOBILE NUMBER">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="YOUR CITY">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="YOUR MESSAGE..."></textarea>
+                </div>
+                <div class="m-3">
+                    <p>Create Projects For Companies With Passion For Startup And Quality</p>
+                </div>
+                <div class="my-3">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="col-lg-5 py-5 our-address">
+                <div class="pb-5"> 
+                    <h1>OUR ADDRESS</h1>
+                </div>
+                <div class="pb-4 fs-5">
+                    <i class="fa-solid fa-building"></i><span class="ps-1">28 green tower, new york city,USA</span>
+                </div>
+                <div class="pb-4 fs-5">
+                    <i class="fa-solid fa-square-phone"></i><span class="ps-1">+84 846 250 592</span>
+                </div>
+                <div class="pb-4 fs-5">
+                    <i class="fa-solid fa-envelope"></i><span class="ps-1">contact@stack.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black text-light p-4">
+        <div class="row offset-1">
+            <div class="col-lg-3">
+                <img src="images/logo.png">
+                <p>At Stack ,Coustumer Come Frist And There Satisification Is Not Just Our Top Priority But Also The
+                    Driving Force For Us,Every Single Day.</p>
+                <h2>WORKING HOURS:</h2>
+                <P>Mon-Sat 8:00-18:00(SUNDAY OFF)</P>
+                <P>@Copy Rights|| All Rights Reserved</P>
+            </div>
+            <div class="col-lg-3">
+                <h2>GET IN TOUCH</h2>
+                <div class="pb-2">
+                    <i class="fa-solid fa-building"></i><span class="ps-1">28 green tower, new york city,USA</span>
+                </div>
+                <div class="pb-2">
+                    <i class="fa-solid fa-envelope"></i><span class="ps-1">contact@stack.com</span>
+                </div>
+                <div class="pb-2">
+                    <i class="fa-solid fa-square-phone"></i><span class="ps-1">+84 846 250 592</span>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <h2>QUICK LINKS</h2>
+                <ul class="pb-2">
+                    <li>Home</li>
+                    <li>Feature</li>
+                    <li>Service</li>
+                    <li>Testimonial</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h2>NEW LETTER</h2>
+                <p>To Be One Of The Most Trusted GloballyReputed Financial Distribution Companies</p>
+                <div class="mb-3">
+                    <input type="tel" class="form-control" id="exampleFormControlInput1"
+                        placeholder="YOUR MOBILE NUMBER">
+                    <div class="my-3">
+                        <button type="button" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
