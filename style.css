@@ -20,8 +20,8 @@ height: 400px;
         padding-left:0px;
     }
     .logo{
-        padding-left :5px !important;
-        height: 30px;
+        padding-left :0px !important;
+        height: 35px;
     }
     .first-cl{
         margin-left: 10px;
@@ -29,10 +29,10 @@ height: 400px;
         padding: 0px;
     }
     .navbar-toggler{
-        font-size: 10px;
+        font-size: 25px;
     }
-    .container-fluid {
-    padding-right:20px ;
+    .nav-padding {
+    padding-right:60px ;
     }
     .bannerimg{
         height: 30vh;
