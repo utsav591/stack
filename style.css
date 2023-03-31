@@ -1,57 +1,58 @@
-#bg-image{
- background-image: url("images/hero-bg.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-text-align: center;
+#bg-image {
+    background-image: url("images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
-#carousel-image{
+
+#carousel-image {
     background-image: url('images/testimonial_bg.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-text-align: center;
-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+}
+.carousel-p{
+    font-size: 23px;
 }
 
 @media (max-width: 481px) {
-    body{
-        margin-left:0px;
-        padding-left:0px;
+    .offset-2 {
+        margin-left: 0px !important;
     }
-    .offset-2{
-        margin-left: 0px!important;
-    }
-    .offset-1{
-        margin-left: 10px!important;
+
+    .offset-1 {
+        margin-left: 10px !important;
         padding: 20px;
     }
-    .logo{
-        padding-left :0px ;
+
+    .logo {
+        padding-left: 0px;
         height: 35px;
     }
-    .bannerimg{
+
+    .bannerimg {
         height: 22vh;
     }
-    #bg-image{
-        margin: 0px!important;
+
+    #bg-image {
+        margin: 0px !important;
     }
-    .padding-h2{
-        padding-top: 80px!important;
+
+    .padding-h2 {
+        padding-top: 80px !important;
     }
-    #carousel-image{
+
+    #carousel-image {
         height: 440px;
     }
-    .row{
-        padding-right: 10px;
+
+    .padding-h1 {
+        padding-bottom: 10px !important;
     }
-    
-.our-address{
-    padding-left: 15px;
+    .carousel-p{
+        font-size: 16px;
+    }
 }
-.padding-h1{
-    padding-bottom: 10px!important;
-}
-}
-
-
